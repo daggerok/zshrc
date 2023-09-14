@@ -128,6 +128,8 @@ function setnode {
 # Get AWS EC2 IPs
 #
 # Requires Amazon SDK
+#
+#   brew reinstall awscli
 ##
 function aws-ec2-ips() {
    function aws-ec2-ips-usage() {
