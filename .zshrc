@@ -44,6 +44,10 @@ function watch() {
 #
 #   justcommit
 #   justcommit 'My meaningful message.'
+#
+# Requires:
+#
+#   brew reinstall curl git
 ##
 function justcommit() {
   if [[ -z "$1" ]] ; then
@@ -63,7 +67,8 @@ function justcommit() {
 #    use jdk 17  # or: use 17
 #
 # Requires:
-#   brew reinstall
+#
+#   brew reinstall temurin temurin17 temurin11 temurin8
 ##
 function use() {
   function usage() {
